@@ -30,7 +30,7 @@ class ObjectManager extends Component with HasGameRef<CarRace> {
   }
 
   final Map<String, bool> specialPlatforms = {
-    'enemy': false,
+    'eney': false,
   };
 
   void enableSpecialty(String specialty) {
