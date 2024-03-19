@@ -40,7 +40,7 @@ class ObjectManager extends Component with HasGameRef<CarRace> {
   void addEnemy(int level) {
     switch (level) {
       case 1:
-        enableSpecialty('enem');
+        enableSpecialty('enemy');
     }
   }
 

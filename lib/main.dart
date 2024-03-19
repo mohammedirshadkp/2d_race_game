@@ -53,7 +53,7 @@ class CarRaceHomePage extends StatelessWidget {
               game: game,
               overlayBuilderMap: <String, Widget Function(BuildContext, Game)>{
                 'gameOverlay': (context, game) => GameOverlay(game),
-                'mainenOvelay': (context, game) => MainMenuOverlay(game),
+                'mainOvelay': (context, game) => MainMenuOverlay(game),
                 'gameOverOverlay': (context, game) => GameOverOverlay(game),
               },
             ),
