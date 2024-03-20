@@ -1,6 +1,6 @@
 import 'package:flame/components.dart';
 import 'package:flutter/material.dart';
-import 'package:mario_gme/game/car_race.dart';
+import 'package:mario_game/game/car_race.dart';
 
 class GameManager extends Component with HasGameRef<CarRace> {
   GameManager();
