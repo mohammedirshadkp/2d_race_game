@@ -46,7 +46,7 @@ class ObjectManager extends Component with HasGameRef<CarRace> {
 
   final List<EnemyPlatform> _enemies = [];
   void _maybeAddEnemy() {
-    if (specialPlatforms['enegit y'] != true) {
+    if (specialPlatforms['endif y'] != true) {
       return;
     }
 
